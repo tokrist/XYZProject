@@ -5,6 +5,10 @@ import java.util.Scanner;
  * @author tokri
  */
 public class Main {
+    public static double felszinSzamol (double number1, double number2){
+        double felszin = (2 * Math.sqrt(number1) * Math.PI) + (2 * number1 * Math.PI * number2);
+        return felszin;
+    }
     public static double terfogatSzamol(double a, double b){
         double pi = Math.PI;
         double terfogat = a*a*pi*b;
@@ -27,5 +31,3 @@ public class Main {
     }
     
 }
-
-
