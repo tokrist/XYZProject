@@ -5,7 +5,7 @@ import java.util.Scanner;
  * @author tokri
  */
 public class Main {
-    public double terfogatSzamol(int a, int b){
+    public double terfogatSzamol(double a, double b){
         double pi = Math.PI;
         double terfogat = a*a*pi*b;
         return terfogat;
