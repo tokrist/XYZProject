@@ -10,9 +10,11 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner("Adjon meg az elso szamot!");
+        System.out.println("Adja meg az elso szamot!");
+        Scanner input = new Scanner(System.in);
         double number1 = input.nextInt();
-        input = new Scanner("Adja meg a masodik szamot!");
+        System.out.println("Adja meg az elso szamot!");
+        input = new Scanner(System.in);
         double number2 = input.nextInt();
         
         
