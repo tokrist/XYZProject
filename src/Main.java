@@ -10,16 +10,16 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Adja meg az elso szamot!");
+        System.out.println("Adja meg a sugarat!");
         Scanner input = new Scanner(System.in);
-        double number1 = input.nextInt();
-        System.out.println("Adja meg az elso szamot!");
+        double r = input.nextInt();
+        System.out.println("Adja meg a magassagot!");
         input = new Scanner(System.in);
-        double number2 = input.nextInt();
+        double m = input.nextInt();
         
         
-        System.out.println("A tergogat: " + terfogatSzamol(number1, number2));
-        System.out.println("A felszin: " + felszinSzamol(number1, number2));
+        System.out.println("A tergogat: " + terfogatSzamol(r, m));
+        System.out.println("A felszin: " + felszinSzamol(r, m));
     }
     
 }
