@@ -5,7 +5,11 @@ import java.util.Scanner;
  * @author tokri
  */
 public class Main {
-
+    public double terfogatSzamol(int a, int b){
+        double pi = Math.PI;
+        double terfogat = a*a*pi*b;
+        return terfogat;
+    }
     /**
      * @param args the command line arguments
      */
@@ -21,3 +25,5 @@ public class Main {
     }
     
 }
+
+
