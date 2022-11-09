@@ -10,8 +10,7 @@ public class Main {
         return felszin;
     }
     public static double terfogatSzamol(double a, double b){
-        double pi = Math.PI;
-        double terfogat = a*a*pi*b;
+        double terfogat = a*a*Math.PI*b;
         return terfogat;
     }
     /**
